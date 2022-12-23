@@ -48,15 +48,15 @@ function createHtml(){
 
     var th1=document.createElement('th');
     th1.setAttribute('class','th');
-    th1.innerText="id";
+    th1.innerText="ID";
 
     var th2=document.createElement('th');
     th2.setAttribute('class','th');
-    th2.innerText="name";
+    th2.innerText="Name";
 
     var th3=document.createElement('th');
     th3.setAttribute('class','th');
-    th3.innerText="email";
+    th3.innerText="Email";
 
     tr.append(th1,th2,th3);
     table.append(tr);
